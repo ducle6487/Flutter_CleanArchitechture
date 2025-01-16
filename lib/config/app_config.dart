@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/core/localization/enum/language_type.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/language_type.dart';
 import 'package:flutter/material.dart';
 
 class AppConfig {

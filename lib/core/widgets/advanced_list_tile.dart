@@ -1,13 +1,13 @@
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/config/app_font_size.dart';
-import 'package:Flutter_CleanArchitechture/config/app_fonts_weight.dart';
-import 'package:Flutter_CleanArchitechture/config/app_radius.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/config/app_font_size.dart';
+import 'package:flutter_clean_architechture/config/app_fonts_weight.dart';
+import 'package:flutter_clean_architechture/config/app_radius.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_shimmer.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_shimmer.dart';
 
 class AdvancedListTile extends ConsumerWidget {
   final bool? isLoading;

@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/core/error/enum/client/client_exception_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/client_failure.dart';
-import 'package:Flutter_CleanArchitechture/config/app_resources.dart';
+import 'package:flutter_clean_architechture/core/error/enum/client/client_exception_type.dart';
+import 'package:flutter_clean_architechture/core/error/model/client_failure.dart';
+import 'package:flutter_clean_architechture/config/app_resources.dart';
 import 'package:flutter/material.dart';
 
 enum LanguageType {

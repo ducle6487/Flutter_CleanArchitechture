@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/app/data/notification/source/remote/notification_remote_data_source.dart';
-import 'package:Flutter_CleanArchitechture/core/api/model/pagination_wrapper_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/repository/notification_repository.dart';
+import 'package:flutter_clean_architechture/app/data/notification/source/remote/notification_remote_data_source.dart';
+import 'package:flutter_clean_architechture/core/api/model/pagination_wrapper_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/repository/notification_repository.dart';
 
 class NotificationRepositoryImpl implements NotificationRepository {
   final NotificationRemoteDataSource _notificationRemoteDataSource;

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/config/app_icons.dart';
-import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_app_bar.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/model/advanced_app_bar_icon_model.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/config/app_icons.dart';
+import 'package:flutter_clean_architechture/config/app_strings.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_app_bar.dart';
+import 'package:flutter_clean_architechture/core/widgets/model/advanced_app_bar_icon_model.dart';
 
 class ForgotPasswordAppBar extends ConsumerWidget
     implements PreferredSizeWidget {

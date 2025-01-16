@@ -1,10 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/sign_out/sign_out_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/model/user_profile_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/usecase/get_my_profile/get_my_profile_usecase.dart';
-import 'package:Flutter_CleanArchitechture/core/animation/constants/animation_constants.dart';
-import 'package:Flutter_CleanArchitechture/core/authorization/service/authorization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/loading/provider/loading_provider.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/sign_out/sign_out_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/user/model/user_profile_response_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/user/usecase/get_my_profile/get_my_profile_usecase.dart';
+import 'package:flutter_clean_architechture/core/animation/constants/animation_constants.dart';
+import 'package:flutter_clean_architechture/core/authorization/service/authorization_service.dart';
+import 'package:flutter_clean_architechture/core/loading/provider/loading_provider.dart';
 
 class SettingsViewState {
   final bool isSignOutError;

@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/config/app_fonts_weight.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/model/advanced_navigation_rail_destination_model.dart';
+import 'package:flutter_clean_architechture/config/app_fonts_weight.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/core/widgets/model/advanced_navigation_rail_destination_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

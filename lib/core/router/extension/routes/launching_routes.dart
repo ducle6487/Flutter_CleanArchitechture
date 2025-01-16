@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/launch/view/lauch_view.dart';
-import 'package:Flutter_CleanArchitechture/core/router/enum/router_type.dart';
+import 'package:flutter_clean_architechture/app/presentation/launch/view/lauch_view.dart';
+import 'package:flutter_clean_architechture/core/router/enum/router_type.dart';
 
 GoRoute launchingRoutes() => GoRoute(
       name: RouterType.launch.name,

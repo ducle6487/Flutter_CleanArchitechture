@@ -1,11 +1,11 @@
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/controller/notification_history_view_controller.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/provider/notification_history_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/widget/notification_history_item_view.dart';
-import 'package:Flutter_CleanArchitechture/config/app_font_size.dart';
-import 'package:Flutter_CleanArchitechture/config/app_fonts.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_divider_horizontal.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/controller/notification_history_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/provider/notification_history_view_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/widget/notification_history_item_view.dart';
+import 'package:flutter_clean_architechture/config/app_font_size.dart';
+import 'package:flutter_clean_architechture/config/app_fonts.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_divider_horizontal.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

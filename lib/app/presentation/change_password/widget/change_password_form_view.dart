@@ -1,21 +1,21 @@
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/change_password/controller/change_password_view_controller.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/change_password/provider/change_password_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/config/app_font_size.dart';
-import 'package:Flutter_CleanArchitechture/config/app_fonts_weight.dart';
-import 'package:Flutter_CleanArchitechture/config/app_regex.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
-import 'package:Flutter_CleanArchitechture/config/app_svg_icons.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_button_with_text.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_textfield_form.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/model/advanced_border_model.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/model/advanced_icon_button_model.dart';
+import 'package:flutter_clean_architechture/app/presentation/change_password/controller/change_password_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/change_password/provider/change_password_view_provider.dart';
+import 'package:flutter_clean_architechture/config/app_font_size.dart';
+import 'package:flutter_clean_architechture/config/app_fonts_weight.dart';
+import 'package:flutter_clean_architechture/config/app_regex.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/config/app_strings.dart';
+import 'package:flutter_clean_architechture/config/app_svg_icons.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_button_with_text.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_textfield_form.dart';
+import 'package:flutter_clean_architechture/core/widgets/model/advanced_border_model.dart';
+import 'package:flutter_clean_architechture/core/widgets/model/advanced_icon_button_model.dart';
 import '../../../domain/auth/model/change_password_request_dto.dart';
 
 class ChangePasswordFormView extends ConsumerWidget {

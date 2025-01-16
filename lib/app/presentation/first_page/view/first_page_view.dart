@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/app/presentation/first_page/widget/home_weather_content_view.dart';
-import 'package:Flutter_CleanArchitechture/core/location/location_permission_observer.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/app/presentation/first_page/widget/home_weather_content_view.dart';
+import 'package:flutter_clean_architechture/core/location/location_permission_observer.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

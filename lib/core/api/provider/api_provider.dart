@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/core/api/service/http_service.dart';
+import 'package:flutter_clean_architechture/core/api/service/http_service.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class ApiProvider {

@@ -1,10 +1,10 @@
-import 'package:Flutter_CleanArchitechture/core/error/enum/server/server_exception_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/enum/server_problem/unknown_problem_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure_data.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/core/error/enum/server/server_exception_type.dart';
+import 'package:flutter_clean_architechture/core/error/enum/server_problem/unknown_problem_type.dart';
+import 'package:flutter_clean_architechture/core/error/model/failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure_data.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
 import 'package:dio/dio.dart';
 import '../../internet_connection_service/internet_connection_service.dart';
 

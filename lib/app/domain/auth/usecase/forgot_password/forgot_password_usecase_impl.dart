@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/forgot_password_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/repository/auth_repository.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/forgot_password/forgot_password_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/forgot_password_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/repository/auth_repository.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/forgot_password/forgot_password_usecase.dart';
 
 class ForgoPasswordUsecaseImpl implements ForgotPasswordUsecase {
   final AuthRepository _authRepository;

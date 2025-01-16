@@ -98,7 +98,7 @@ enum TextType {
   incorrectCurrentPassword('current_password_incorrect'),
   changePasswordSuccess('change_password_success'),
   emptyFullName('empty_full_name'),
-  ariBase('Flutter_CleanArchitechture'),
+  ariBase('flutter_clean_architechture'),
   photoGallery('photo_gallery'),
   camera('camera'),
   filter('filter'),

@@ -1,12 +1,12 @@
-import 'package:Flutter_CleanArchitechture/app/presentation/profile_setting/view/profile_setting_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/profile_setting/view/profile_setting_view.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/change_password/view/change_password_view.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/home/view/home_view.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/view/notification_history_view.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/settings/view/settings_view.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/settings_language/view/settings_language_view.dart';
-import 'package:Flutter_CleanArchitechture/core/router/enum/router_type.dart';
+import 'package:flutter_clean_architechture/app/presentation/change_password/view/change_password_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/home/view/home_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/view/notification_history_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/settings/view/settings_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/settings_language/view/settings_language_view.dart';
+import 'package:flutter_clean_architechture/core/router/enum/router_type.dart';
 
 GoRoute authenticatedRoutes() => GoRoute(
       name: RouterType.home.name,

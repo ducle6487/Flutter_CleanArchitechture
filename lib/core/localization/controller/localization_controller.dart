@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/core/error/enum/client/client_exception_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/language_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/client_failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
+import 'package:flutter_clean_architechture/core/error/enum/client/client_exception_type.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/language_type.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/error/model/client_failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure.dart';
 
 class LocalizationState {
   final LanguageType languageType;

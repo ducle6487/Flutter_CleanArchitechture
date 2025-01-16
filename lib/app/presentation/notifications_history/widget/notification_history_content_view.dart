@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/controller/notification_history_view_controller.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/provider/notification_history_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/widget/notification_history_grouped_view.dart';
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/config/app_radius.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_divider_horizontal.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_empty_view.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_refresh_indicator.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_shimmer.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/controller/notification_history_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/provider/notification_history_view_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/widget/notification_history_grouped_view.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/config/app_radius.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_divider_horizontal.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_empty_view.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_refresh_indicator.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_shimmer.dart';
 
 class NotificationHistoryContentView extends ConsumerStatefulWidget {
   const NotificationHistoryContentView({

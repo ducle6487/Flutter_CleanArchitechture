@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
-import 'package:Flutter_CleanArchitechture/app/data/notification/source/remote/end_point/notification_end_point.dart';
-import 'package:Flutter_CleanArchitechture/app/data/notification/source/remote/notification_remote_data_source.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/model/notification_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
-import 'package:Flutter_CleanArchitechture/core/api/model/pagination_wrapper_dto.dart';
-import 'package:Flutter_CleanArchitechture/core/api/enum/status_code.dart';
-import 'package:Flutter_CleanArchitechture/core/api/service/http_service.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/app/data/notification/source/remote/end_point/notification_end_point.dart';
+import 'package:flutter_clean_architechture/app/data/notification/source/remote/notification_remote_data_source.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/model/notification_response_dto.dart';
+import 'package:flutter_clean_architechture/config/app_strings.dart';
+import 'package:flutter_clean_architechture/core/api/model/pagination_wrapper_dto.dart';
+import 'package:flutter_clean_architechture/core/api/enum/status_code.dart';
+import 'package:flutter_clean_architechture/core/api/service/http_service.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
 
 class NotificationRemoteDataSourceImpl implements NotificationRemoteDataSource {
   const NotificationRemoteDataSourceImpl({

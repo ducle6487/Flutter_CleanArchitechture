@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/core/animation/constants/animation_constants.dart';
-import 'package:Flutter_CleanArchitechture/core/authorization/service/authorization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/router/enum/home_page_type.dart';
+import 'package:flutter_clean_architechture/core/animation/constants/animation_constants.dart';
+import 'package:flutter_clean_architechture/core/authorization/service/authorization_service.dart';
+import 'package:flutter_clean_architechture/core/router/enum/home_page_type.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/config/app_tshirt_tokens.dart';
+import 'package:flutter_clean_architechture/config/app_tshirt_tokens.dart';
 
 class AppSpacings {
   const AppSpacings._();

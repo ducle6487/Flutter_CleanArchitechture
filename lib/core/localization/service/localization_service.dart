@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_CleanArchitechture/config/app_icons_image.dart';
-import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/controller/localization_controller.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/language_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/config/app_icons_image.dart';
+import 'package:flutter_clean_architechture/config/app_strings.dart';
+import 'package:flutter_clean_architechture/core/localization/controller/localization_controller.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/language_type.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
 
 class LocalizationService {
   static LocalizationController? _controller;

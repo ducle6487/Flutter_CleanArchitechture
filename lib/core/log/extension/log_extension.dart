@@ -1,9 +1,9 @@
 import 'dart:developer' as developer;
-import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
+import 'package:flutter_clean_architechture/config/app_strings.dart';
 import 'package:flutter/foundation.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/client_failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/client_failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure.dart';
 
 extension LogExtension on StackTrace {
   /// Logs a success message.

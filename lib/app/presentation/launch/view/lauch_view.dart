@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:get/route_manager.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Flutter_CleanArchitechture/config/app_images.dart';
-import 'package:Flutter_CleanArchitechture/core/authorization/service/authorization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/router/enum/router_type.dart';
+import 'package:flutter_clean_architechture/config/app_images.dart';
+import 'package:flutter_clean_architechture/core/authorization/service/authorization_service.dart';
+import 'package:flutter_clean_architechture/core/router/enum/router_type.dart';
 
 class LaunchView extends StatefulWidget {
   const LaunchView({

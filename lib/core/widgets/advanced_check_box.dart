@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/config/app_icons.dart';
-import 'package:Flutter_CleanArchitechture/config/app_radius.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/config/app_icons.dart';
+import 'package:flutter_clean_architechture/config/app_radius.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 
 class AdvancedCheckBox extends ConsumerStatefulWidget {
   final bool isSelected;

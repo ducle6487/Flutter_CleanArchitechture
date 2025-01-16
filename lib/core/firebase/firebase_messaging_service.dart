@@ -3,15 +3,15 @@ import 'package:dio/dio.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:Flutter_CleanArchitechture/app/data/user/source/remote/end_point/user_end_point.dart';
-import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
-import 'package:Flutter_CleanArchitechture/core/api/enum/status_code.dart';
-import 'package:Flutter_CleanArchitechture/core/api/service/http_service.dart';
-import 'package:Flutter_CleanArchitechture/core/authorization/service/authorization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/notification/service/notification_service.dart';
-import 'package:Flutter_CleanArchitechture/core/storage/service/shared_preference_service.dart';
+import 'package:flutter_clean_architechture/app/data/user/source/remote/end_point/user_end_point.dart';
+import 'package:flutter_clean_architechture/config/app_strings.dart';
+import 'package:flutter_clean_architechture/core/api/enum/status_code.dart';
+import 'package:flutter_clean_architechture/core/api/service/http_service.dart';
+import 'package:flutter_clean_architechture/core/authorization/service/authorization_service.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/core/notification/service/notification_service.dart';
+import 'package:flutter_clean_architechture/core/storage/service/shared_preference_service.dart';
 import 'dart:io' show Platform;
 
 @pragma('vm:entry-point')

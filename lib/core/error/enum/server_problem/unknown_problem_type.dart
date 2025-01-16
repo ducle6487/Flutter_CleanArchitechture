@@ -1,5 +1,5 @@
-import 'package:Flutter_CleanArchitechture/core/error/enum/client/client_exception_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/client_failure.dart';
+import 'package:flutter_clean_architechture/core/error/enum/client/client_exception_type.dart';
+import 'package:flutter_clean_architechture/core/error/model/client_failure.dart';
 
 enum UnknownProblemType {
   nullResponseValueError('NULL_RESPONSE_VALUE_ERROR'),

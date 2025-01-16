@@ -1,8 +1,8 @@
-import 'package:Flutter_CleanArchitechture/app/data/user/source/remote/user_remote_data_source.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/change_password_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/model/user_profile_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/model/user_profile_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/repository/user_repository.dart';
+import 'package:flutter_clean_architechture/app/data/user/source/remote/user_remote_data_source.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/change_password_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/user/model/user_profile_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/user/model/user_profile_response_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/user/repository/user_repository.dart';
 
 class UserRepositoryImpl implements UserRepository {
   final UserRemoteDataSource _userRemoteDataSource;

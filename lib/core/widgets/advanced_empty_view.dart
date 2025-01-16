@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/config/app_icons_image.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/config/app_icons_image.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 
 class AdvancedEmptyView extends ConsumerWidget {
   const AdvancedEmptyView({super.key});

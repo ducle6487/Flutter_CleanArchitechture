@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_in_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_in/controller/sign_in_view_controller.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_in/provider/sign_in_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/config/app_font_size.dart';
-import 'package:Flutter_CleanArchitechture/config/app_fonts_weight.dart';
-import 'package:Flutter_CleanArchitechture/config/app_regex.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/config/app_svg_icons.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_button_with_text.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_textfield_form.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/model/advanced_icon_button_model.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_in_request_dto.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_in/controller/sign_in_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_in/provider/sign_in_view_provider.dart';
+import 'package:flutter_clean_architechture/config/app_font_size.dart';
+import 'package:flutter_clean_architechture/config/app_fonts_weight.dart';
+import 'package:flutter_clean_architechture/config/app_regex.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/config/app_svg_icons.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_button_with_text.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_textfield_form.dart';
+import 'package:flutter_clean_architechture/core/widgets/model/advanced_icon_button_model.dart';
 import '../../../../core/localization/service/localization_service.dart';
 
 class SignInFormView extends ConsumerWidget {

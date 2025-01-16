@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/config/app_resources.dart';
+import 'package:flutter_clean_architechture/config/app_resources.dart';
 
 enum UserEndPoint {
   me('/me'),

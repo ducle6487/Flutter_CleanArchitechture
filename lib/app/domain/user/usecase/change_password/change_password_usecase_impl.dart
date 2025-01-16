@@ -1,5 +1,5 @@
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/change_password_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/repository/user_repository.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/change_password_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/user/repository/user_repository.dart';
 import 'change_password_usecase.dart';
 
 class ChangePasswordUsecaseImpl implements ChangePasswordUsecase {

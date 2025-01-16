@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:Flutter_CleanArchitechture/config/app_svg_icons.dart';
+import 'package:flutter_clean_architechture/config/app_svg_icons.dart';
 import 'package:intl/intl.dart';
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/model/advanced_border_model.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/core/widgets/model/advanced_border_model.dart';
 import '../../config/app_radius.dart';
 import 'advanced_shimmer.dart';
 

@@ -9,11 +9,11 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.ducle.Flutter_CleanArchitechture.uat</string>
+	<string>com.ducle.flutter.cleanArchitechture.uat</string>
 	<key>PROJECT_ID</key>
-	<string>fir-Flutter_CleanArchitechture-uat</string>
+	<string>fir-flutter_clean_architechture-uat</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-Flutter_CleanArchitechture-uat.firebasestorage.app</string>
+	<string>fir-flutter_clean_architechture-uat.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -27,6 +27,6 @@
 	<key>GOOGLE_APP_ID</key>
 	<string>1:530952341669:ios:37de94abb6b130ffeb254c</string>
 	<key>DATABASE_URL</key>
-	<string>https://fir-Flutter_CleanArchitechture-uat-default-rtdb.firebaseio.com</string>
+	<string>https://fir-flutter_clean_architechture-uat-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

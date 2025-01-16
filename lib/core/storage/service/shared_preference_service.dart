@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Flutter_CleanArchitechture/config/app_config.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/language_type.dart';
-import 'package:Flutter_CleanArchitechture/core/storage/Constants/shared_preference_key.dart';
+import 'package:flutter_clean_architechture/config/app_config.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/language_type.dart';
+import 'package:flutter_clean_architechture/core/storage/Constants/shared_preference_key.dart';
 
 class SharedPreferenceService {
   static SharedPreferences? _sharedPreferences;

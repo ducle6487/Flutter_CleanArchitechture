@@ -1,17 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_in_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_up_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/sign_up/sign_up_usecase.dart';
-import 'package:Flutter_CleanArchitechture/core/animation/constants/animation_constants.dart';
-import 'package:Flutter_CleanArchitechture/core/dialog/dialog_service.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/model/advanced_dropdown_item_model.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_in_response_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_up_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/sign_up/sign_up_usecase.dart';
+import 'package:flutter_clean_architechture/core/animation/constants/animation_constants.dart';
+import 'package:flutter_clean_architechture/core/dialog/dialog_service.dart';
+import 'package:flutter_clean_architechture/core/error/model/failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/core/widgets/model/advanced_dropdown_item_model.dart';
 
 class SignUpViewState {
   final String? uuid;

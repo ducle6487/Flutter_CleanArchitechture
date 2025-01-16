@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/verify_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/repository/auth_repository.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/verify/verify_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/verify_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/repository/auth_repository.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/verify/verify_usecase.dart';
 
 class VerifyUsecaseImpl implements VerifyUsecase {
   final AuthRepository _authRepository;

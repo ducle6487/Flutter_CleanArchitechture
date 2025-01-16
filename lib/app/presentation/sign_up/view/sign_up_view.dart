@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get/route_manager.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_up/controller/sign_up_view_controller.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_up/provider/sign_up_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_up/widget/sign_up_app_bar.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_up/widget/sign_up_content_view.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/verify/controller/verify_view_controller.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/verify/enum/verify_view_type.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/verify/provider/verify_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/config/app_images.dart';
-import 'package:Flutter_CleanArchitechture/core/dialog/dialog_service.dart';
-import 'package:Flutter_CleanArchitechture/core/router/enum/router_type.dart';
-import 'package:Flutter_CleanArchitechture/core/router/extension/router_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_loading_content_view.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/enum/loading_content_type.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_up/controller/sign_up_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_up/provider/sign_up_view_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_up/widget/sign_up_app_bar.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_up/widget/sign_up_content_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/verify/controller/verify_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/verify/enum/verify_view_type.dart';
+import 'package:flutter_clean_architechture/app/presentation/verify/provider/verify_view_provider.dart';
+import 'package:flutter_clean_architechture/config/app_images.dart';
+import 'package:flutter_clean_architechture/core/dialog/dialog_service.dart';
+import 'package:flutter_clean_architechture/core/router/enum/router_type.dart';
+import 'package:flutter_clean_architechture/core/router/extension/router_extension.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_loading_content_view.dart';
+import 'package:flutter_clean_architechture/core/widgets/enum/loading_content_type.dart';
 
 class SignUpView extends ConsumerWidget {
   const SignUpView({

@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/core/api/model/pagination_wrapper_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/repository/notification_repository.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/usecase/loadmore_notification_history/loadmore_notification_history_usecase.dart';
+import 'package:flutter_clean_architechture/core/api/model/pagination_wrapper_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/repository/notification_repository.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/usecase/loadmore_notification_history/loadmore_notification_history_usecase.dart';
 
 class LoadmoreNotificationHistoryUsecaseImpl
     implements LoadmoreNotificationHistoryUsecase {

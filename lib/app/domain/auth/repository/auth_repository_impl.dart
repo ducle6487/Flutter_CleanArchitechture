@@ -1,11 +1,11 @@
-import 'package:Flutter_CleanArchitechture/app/data/auth/source/remote/auth_remote_data_source.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/forgot_password_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/resent_otp_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_in_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_in_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_up_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/verify_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/repository/auth_repository.dart';
+import 'package:flutter_clean_architechture/app/data/auth/source/remote/auth_remote_data_source.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/forgot_password_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/resent_otp_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_in_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_in_response_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_up_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/verify_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/repository/auth_repository.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final AuthRemoteDataSource _authRemoteDataSource;

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_in/provider/sign_in_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/sign_up/provider/sign_up_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/welcome/enum/welcome_view_type.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/welcome/widget/continue_section.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/welcome/widget/start_section.dart';
-import 'package:Flutter_CleanArchitechture/config/app_images.dart';
-import 'package:Flutter_CleanArchitechture/core/router/enum/router_type.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_in/provider/sign_in_view_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/sign_up/provider/sign_up_view_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/welcome/enum/welcome_view_type.dart';
+import 'package:flutter_clean_architechture/app/presentation/welcome/widget/continue_section.dart';
+import 'package:flutter_clean_architechture/app/presentation/welcome/widget/start_section.dart';
+import 'package:flutter_clean_architechture/config/app_images.dart';
+import 'package:flutter_clean_architechture/core/router/enum/router_type.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 
 class WelcomeContentView extends ConsumerStatefulWidget {
   const WelcomeContentView({super.key});

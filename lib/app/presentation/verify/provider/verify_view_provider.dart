@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/provider/auth_domain_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/verify/controller/verify_view_controller.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/provider/auth_domain_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/verify/controller/verify_view_controller.dart';
 
 class VerifyViewProvider {
   VerifyViewProvider._();

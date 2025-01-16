@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/welcome/widget/welcome_content_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/welcome/widget/welcome_content_view.dart';
 
 class WelcomeView extends ConsumerWidget {
   const WelcomeView({super.key});

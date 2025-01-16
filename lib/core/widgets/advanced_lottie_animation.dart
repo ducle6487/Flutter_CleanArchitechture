@@ -1,5 +1,5 @@
-import 'package:Flutter_CleanArchitechture/core/animation/constants/animation_constants.dart';
-import 'package:Flutter_CleanArchitechture/core/animation/extension/animation_extension.dart';
+import 'package:flutter_clean_architechture/core/animation/constants/animation_constants.dart';
+import 'package:flutter_clean_architechture/core/animation/extension/animation_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lottie/lottie.dart';

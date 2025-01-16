@@ -2,11 +2,11 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/config/app_resources.dart';
-import 'package:Flutter_CleanArchitechture/core/api/service/http_service.dart';
-import 'package:Flutter_CleanArchitechture/core/dialog/dialog_service.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/config/app_resources.dart';
+import 'package:flutter_clean_architechture/core/api/service/http_service.dart';
+import 'package:flutter_clean_architechture/core/dialog/dialog_service.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
 import 'package:image_picker/image_picker.dart';
 
 class PickImageService {

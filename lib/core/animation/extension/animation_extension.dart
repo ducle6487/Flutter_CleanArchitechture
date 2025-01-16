@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/core/animation/constants/animation_constants.dart';
+import 'package:flutter_clean_architechture/core/animation/constants/animation_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 

@@ -1,17 +1,17 @@
 import 'dart:async';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/resent_otp_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_in_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_in_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/verify_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/resent_otp/resent_otp_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/sign_in/sign_in_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/verify/verify_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/verify/enum/verify_view_type.dart';
-import 'package:Flutter_CleanArchitechture/core/animation/constants/animation_constants.dart';
-import 'package:Flutter_CleanArchitechture/core/authorization/service/authorization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/firebase/firebase_messaging_service.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/resent_otp_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_in_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_in_response_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/verify_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/resent_otp/resent_otp_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/sign_in/sign_in_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/verify/verify_usecase.dart';
+import 'package:flutter_clean_architechture/app/presentation/verify/enum/verify_view_type.dart';
+import 'package:flutter_clean_architechture/core/animation/constants/animation_constants.dart';
+import 'package:flutter_clean_architechture/core/authorization/service/authorization_service.dart';
+import 'package:flutter_clean_architechture/core/firebase/firebase_messaging_service.dart';
 
 class VerifyViewState {
   static const int initMin = 600;

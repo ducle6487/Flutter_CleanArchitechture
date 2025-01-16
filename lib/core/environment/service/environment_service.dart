@@ -1,5 +1,5 @@
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:Flutter_CleanArchitechture/core/environment/enum/development_environment.dart';
+import 'package:flutter_clean_architechture/core/environment/enum/development_environment.dart';
 
 class EnvironmentService {
   const EnvironmentService._();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/verify/widget/verify_form_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/verify/widget/verify_form_view.dart';
 
 class VerifyContentView extends ConsumerWidget {
   const VerifyContentView({super.key});

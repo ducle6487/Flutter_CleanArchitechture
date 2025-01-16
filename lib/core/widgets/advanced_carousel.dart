@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter_CleanArchitechture/config/app_radius.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/config/app_radius.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 import 'package:flutter/services.dart';
 
 class AdvancedCarousel extends StatefulWidget {

@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
-import 'package:Flutter_CleanArchitechture/app/data/user/source/remote/end_point/user_end_point.dart';
-import 'package:Flutter_CleanArchitechture/app/data/user/source/remote/user_remote_data_source.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/change_password_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/model/user_profile_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/model/user_profile_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/core/api/enum/status_code.dart';
-import 'package:Flutter_CleanArchitechture/core/api/service/http_service.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/app/data/user/source/remote/end_point/user_end_point.dart';
+import 'package:flutter_clean_architechture/app/data/user/source/remote/user_remote_data_source.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/change_password_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/user/model/user_profile_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/user/model/user_profile_response_dto.dart';
+import 'package:flutter_clean_architechture/core/api/enum/status_code.dart';
+import 'package:flutter_clean_architechture/core/api/service/http_service.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
 
 class UserRemoteDataSourceImpl implements UserRemoteDataSource {
   const UserRemoteDataSourceImpl({

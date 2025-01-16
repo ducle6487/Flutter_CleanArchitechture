@@ -1,8 +1,8 @@
-import 'package:Flutter_CleanArchitechture/app/data/notification/source/remote/notification_remote_data_source.dart';
-import 'package:Flutter_CleanArchitechture/app/data/notification/source/remote/notification_remote_data_source_impl.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/repository/notification_repository.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/repository/notification_repository_impl.dart';
-import 'package:Flutter_CleanArchitechture/core/api/provider/api_provider.dart';
+import 'package:flutter_clean_architechture/app/data/notification/source/remote/notification_remote_data_source.dart';
+import 'package:flutter_clean_architechture/app/data/notification/source/remote/notification_remote_data_source_impl.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/repository/notification_repository.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/repository/notification_repository_impl.dart';
+import 'package:flutter_clean_architechture/core/api/provider/api_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class NotificationDataProvider {

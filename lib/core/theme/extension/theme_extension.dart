@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/core/theme/model/app_colors.dart';
+import 'package:flutter_clean_architechture/core/theme/model/app_colors.dart';
 import 'package:flutter/material.dart';
 
 extension ThemeExtension on BuildContext {

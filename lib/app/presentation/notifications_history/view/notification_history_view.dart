@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/widget/notification_history_appbar.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/widget/notification_history_content_view.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/widget/notification_history_appbar.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/widget/notification_history_content_view.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
 
 class NotificationHistoryView extends ConsumerStatefulWidget {
   const NotificationHistoryView({super.key});

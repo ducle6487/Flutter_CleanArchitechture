@@ -1,16 +1,16 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/model/notification_history_group_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/model/notification_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/usecase/clear_new_notification/clear_new_notification_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/usecase/get_notification_history/get_notification_history_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/usecase/get_unread_notifications_count/get_unread_notifications_count_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/usecase/loadmore_notification_history/loadmore_notification_history_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/notification/usecase/mark_as_read_notification/mark_as_read_notification_usecase.dart';
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/core/animation/constants/animation_constants.dart';
-import 'package:Flutter_CleanArchitechture/core/api/model/pagination.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/model/notification_history_group_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/model/notification_response_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/usecase/clear_new_notification/clear_new_notification_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/usecase/get_notification_history/get_notification_history_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/usecase/get_unread_notifications_count/get_unread_notifications_count_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/usecase/loadmore_notification_history/loadmore_notification_history_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/usecase/mark_as_read_notification/mark_as_read_notification_usecase.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/core/animation/constants/animation_constants.dart';
+import 'package:flutter_clean_architechture/core/api/model/pagination.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
 
 class NotificationHistoryViewState {
   final List<NotificationResponseDTO> notificationsHistory;

@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/core/error/enum/client/client_exception_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/failure.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/core/error/enum/client/client_exception_type.dart';
+import 'package:flutter_clean_architechture/core/error/model/failure.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
 
 class ClientFailure extends Failure {
   final ClientExceptionType clientExceptionType;

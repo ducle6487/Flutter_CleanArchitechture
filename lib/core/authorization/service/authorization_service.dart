@@ -1,7 +1,7 @@
 import 'package:get/route_manager.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Flutter_CleanArchitechture/core/firebase/firebase_messaging_service.dart';
-import 'package:Flutter_CleanArchitechture/core/storage/service/shared_preference_service.dart';
+import 'package:flutter_clean_architechture/core/firebase/firebase_messaging_service.dart';
+import 'package:flutter_clean_architechture/core/storage/service/shared_preference_service.dart';
 import '../../router/enum/router_type.dart';
 
 class AuthorizationService {

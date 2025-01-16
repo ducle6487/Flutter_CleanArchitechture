@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/core/environment/service/environment_service.dart';
+import 'package:flutter_clean_architechture/core/environment/service/environment_service.dart';
 
 class AppResources {
   const AppResources._();

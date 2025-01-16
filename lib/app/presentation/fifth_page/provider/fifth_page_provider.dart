@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/fifth_page/controller/fifth_page_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/fifth_page/controller/fifth_page_controller.dart';
 
 class FifthPageViewProvider {
   FifthPageViewProvider._();

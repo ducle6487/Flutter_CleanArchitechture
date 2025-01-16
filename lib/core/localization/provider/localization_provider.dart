@@ -1,4 +1,4 @@
-import 'package:Flutter_CleanArchitechture/core/localization/controller/localization_controller.dart';
+import 'package:flutter_clean_architechture/core/localization/controller/localization_controller.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class LocalizationProvider {

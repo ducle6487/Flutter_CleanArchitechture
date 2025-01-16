@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/profile_setting/controller/profile_setting_view_controller.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/profile_setting/provider/profile_setting_view_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/profile_setting/widget/profile_setting_form_view.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/profile_setting/widget/profile_setting_info_view.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/settings/provider/settings_provider.dart';
-import 'package:Flutter_CleanArchitechture/config/app_dimensions.dart';
-import 'package:Flutter_CleanArchitechture/config/app_font_size.dart';
-import 'package:Flutter_CleanArchitechture/config/app_icons.dart';
-import 'package:Flutter_CleanArchitechture/config/app_icons_image.dart';
-import 'package:Flutter_CleanArchitechture/config/app_spacings.dart';
-import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/text_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/pick_image/pick_image_service.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/extension/theme_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/widgets/advanced_shimmer.dart';
+import 'package:flutter_clean_architechture/app/presentation/profile_setting/controller/profile_setting_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/profile_setting/provider/profile_setting_view_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/profile_setting/widget/profile_setting_form_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/profile_setting/widget/profile_setting_info_view.dart';
+import 'package:flutter_clean_architechture/app/presentation/settings/provider/settings_provider.dart';
+import 'package:flutter_clean_architechture/config/app_dimensions.dart';
+import 'package:flutter_clean_architechture/config/app_font_size.dart';
+import 'package:flutter_clean_architechture/config/app_icons.dart';
+import 'package:flutter_clean_architechture/config/app_icons_image.dart';
+import 'package:flutter_clean_architechture/config/app_spacings.dart';
+import 'package:flutter_clean_architechture/config/app_strings.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/text_type.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/core/pick_image/pick_image_service.dart';
+import 'package:flutter_clean_architechture/core/theme/extension/theme_extension.dart';
+import 'package:flutter_clean_architechture/core/widgets/advanced_shimmer.dart';
 
 class ProfileSettingContentView extends ConsumerWidget {
   const ProfileSettingContentView({

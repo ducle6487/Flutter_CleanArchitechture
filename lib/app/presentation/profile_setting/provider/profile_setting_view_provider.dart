@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/provider/user_domain_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/profile_setting/controller/profile_setting_view_controller.dart';
+import 'package:flutter_clean_architechture/app/domain/user/provider/user_domain_provider.dart';
+import 'package:flutter_clean_architechture/app/presentation/profile_setting/controller/profile_setting_view_controller.dart';
 
 class ProfileSettingViewProvider {
   ProfileSettingViewProvider._();

@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/resent_otp_request_dto.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/repository/auth_repository.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/resent_otp/resent_otp_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/resent_otp_request_dto.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/repository/auth_repository.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/resent_otp/resent_otp_usecase.dart';
 
 class ResentOTPUsecaseImpl implements ResentOTPUsecase {
   final AuthRepository _authRepository;

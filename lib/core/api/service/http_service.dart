@@ -1,20 +1,20 @@
 import 'dart:io';
-import 'package:Flutter_CleanArchitechture/app/data/auth/source/remote/end_point/auth_end_point.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/model/sign_in_response_dto.dart';
-import 'package:Flutter_CleanArchitechture/core/api/enum/status_code.dart';
-import 'package:Flutter_CleanArchitechture/core/authorization/service/authorization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/error/enum/client/client_exception_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/enum/server/server_exception_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/enum/server_problem/unknown_problem_type.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/client_failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/failure.dart';
-import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
-import 'package:Flutter_CleanArchitechture/config/app_resources.dart';
-import 'package:Flutter_CleanArchitechture/core/log/extension/log_extension.dart';
+import 'package:flutter_clean_architechture/app/data/auth/source/remote/end_point/auth_end_point.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/model/sign_in_response_dto.dart';
+import 'package:flutter_clean_architechture/core/api/enum/status_code.dart';
+import 'package:flutter_clean_architechture/core/authorization/service/authorization_service.dart';
+import 'package:flutter_clean_architechture/core/error/enum/client/client_exception_type.dart';
+import 'package:flutter_clean_architechture/core/error/enum/server/server_exception_type.dart';
+import 'package:flutter_clean_architechture/core/error/enum/server_problem/unknown_problem_type.dart';
+import 'package:flutter_clean_architechture/core/error/model/client_failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/failure.dart';
+import 'package:flutter_clean_architechture/core/error/model/server_failure.dart';
+import 'package:flutter_clean_architechture/config/app_resources.dart';
+import 'package:flutter_clean_architechture/core/log/extension/log_extension.dart';
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 import 'package:flutter/services.dart';
-import 'package:Flutter_CleanArchitechture/core/storage/service/shared_preference_service.dart';
+import 'package:flutter_clean_architechture/core/storage/service/shared_preference_service.dart';
 
 class HttpService {
   final Dio _dio;

@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/third_page/controller/third_page_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/third_page/controller/third_page_view_controller.dart';
 
 class ThirdPageViewProvider {
   const ThirdPageViewProvider._();

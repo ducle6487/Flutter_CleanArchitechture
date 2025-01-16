@@ -1,24 +1,24 @@
-import 'package:Flutter_CleanArchitechture/core/theme/constants/dark_theme_constants.dart';
+import 'package:flutter_clean_architechture/core/theme/constants/dark_theme_constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:Flutter_CleanArchitechture/core/api/provider/api_provider.dart';
-import 'package:Flutter_CleanArchitechture/core/api/service/http_service.dart';
-import 'package:Flutter_CleanArchitechture/core/environment/enum/development_environment.dart';
-import 'package:Flutter_CleanArchitechture/core/environment/service/environment_service.dart';
-import 'package:Flutter_CleanArchitechture/core/firebase/firebase_messaging_service.dart';
-import 'package:Flutter_CleanArchitechture/core/internet_connection_service/internet_connection_service.dart';
-import 'package:Flutter_CleanArchitechture/core/loading/provider/loading_provider.dart';
-import 'package:Flutter_CleanArchitechture/core/loading/widget/loading_lottie_animation.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/enum/language_type.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/provider/localization_provider.dart';
-import 'package:Flutter_CleanArchitechture/core/localization/service/localization_service.dart';
-import 'package:Flutter_CleanArchitechture/core/notification/service/notification_service.dart';
-import 'package:Flutter_CleanArchitechture/core/permission/permission_service.dart';
-import 'package:Flutter_CleanArchitechture/core/router/extension/router_extension.dart';
-import 'package:Flutter_CleanArchitechture/core/storage/service/shared_preference_service.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/constants/light_theme_constants.dart';
-import 'package:Flutter_CleanArchitechture/core/theme/provider/theme_provider.dart';
+import 'package:flutter_clean_architechture/core/api/provider/api_provider.dart';
+import 'package:flutter_clean_architechture/core/api/service/http_service.dart';
+import 'package:flutter_clean_architechture/core/environment/enum/development_environment.dart';
+import 'package:flutter_clean_architechture/core/environment/service/environment_service.dart';
+import 'package:flutter_clean_architechture/core/firebase/firebase_messaging_service.dart';
+import 'package:flutter_clean_architechture/core/internet_connection_service/internet_connection_service.dart';
+import 'package:flutter_clean_architechture/core/loading/provider/loading_provider.dart';
+import 'package:flutter_clean_architechture/core/loading/widget/loading_lottie_animation.dart';
+import 'package:flutter_clean_architechture/core/localization/enum/language_type.dart';
+import 'package:flutter_clean_architechture/core/localization/provider/localization_provider.dart';
+import 'package:flutter_clean_architechture/core/localization/service/localization_service.dart';
+import 'package:flutter_clean_architechture/core/notification/service/notification_service.dart';
+import 'package:flutter_clean_architechture/core/permission/permission_service.dart';
+import 'package:flutter_clean_architechture/core/router/extension/router_extension.dart';
+import 'package:flutter_clean_architechture/core/storage/service/shared_preference_service.dart';
+import 'package:flutter_clean_architechture/core/theme/constants/light_theme_constants.dart';
+import 'package:flutter_clean_architechture/core/theme/provider/theme_provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -98,7 +98,7 @@ class MyApp extends ConsumerWidget {
           SystemChannels.textInput.invokeMethod('TextInput.hide'),
         },
         child: MaterialApp.router(
-          title: 'Flutter_CleanArchitechture',
+          title: 'flutter_clean_architechture',
           themeMode: themeState.themeMode,
           theme: LightThemeConstants.themeData,
           darkTheme: DarkThemeConstants.themeData,

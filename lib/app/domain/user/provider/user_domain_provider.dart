@@ -1,10 +1,10 @@
-import 'package:Flutter_CleanArchitechture/app/data/user/provider/user_data_provider.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/usecase/change_password/change_password_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/usecase/change_password/change_password_usecase_impl.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/usecase/delete_account/delete_account_usecase.dart.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/usecase/delete_account/delete_account_usecase_impl.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/usecase/get_my_profile/get_my_profile_usecase.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/user/usecase/get_my_profile/get_my_profile_usecase_impl.dart';
+import 'package:flutter_clean_architechture/app/data/user/provider/user_data_provider.dart';
+import 'package:flutter_clean_architechture/app/domain/user/usecase/change_password/change_password_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/user/usecase/change_password/change_password_usecase_impl.dart';
+import 'package:flutter_clean_architechture/app/domain/user/usecase/delete_account/delete_account_usecase.dart.dart';
+import 'package:flutter_clean_architechture/app/domain/user/usecase/delete_account/delete_account_usecase_impl.dart';
+import 'package:flutter_clean_architechture/app/domain/user/usecase/get_my_profile/get_my_profile_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/user/usecase/get_my_profile/get_my_profile_usecase_impl.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../usecase/update_my_profile/update_my_profile_usecase.dart';
 import '../usecase/update_my_profile/update_my_profile_usecase_impl.dart';

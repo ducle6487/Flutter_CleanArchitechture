@@ -1,10 +1,10 @@
 import 'package:get/route_manager.dart';
-import 'package:Flutter_CleanArchitechture/core/router/enum/router_type.dart';
+import 'package:flutter_clean_architechture/core/router/enum/router_type.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Flutter_CleanArchitechture/core/router/extension/routes/authenticated_routes.dart';
-import 'package:Flutter_CleanArchitechture/core/router/extension/routes/launching_routes.dart';
-import 'package:Flutter_CleanArchitechture/core/router/extension/routes/un_authenticated_routes.dart';
+import 'package:flutter_clean_architechture/core/router/extension/routes/authenticated_routes.dart';
+import 'package:flutter_clean_architechture/core/router/extension/routes/launching_routes.dart';
+import 'package:flutter_clean_architechture/core/router/extension/routes/un_authenticated_routes.dart';
 
 extension RouterExtension on BuildContext {
   /// Static instance of [GoRouter] for application-wide routing.

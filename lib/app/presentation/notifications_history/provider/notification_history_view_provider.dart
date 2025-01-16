@@ -1,6 +1,6 @@
-import 'package:Flutter_CleanArchitechture/app/domain/notification/provider/notification_domain_provider.dart';
+import 'package:flutter_clean_architechture/app/domain/notification/provider/notification_domain_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Flutter_CleanArchitechture/app/presentation/notifications_history/controller/notification_history_view_controller.dart';
+import 'package:flutter_clean_architechture/app/presentation/notifications_history/controller/notification_history_view_controller.dart';
 
 class NotificationHistoryViewProvider {
   const NotificationHistoryViewProvider._();

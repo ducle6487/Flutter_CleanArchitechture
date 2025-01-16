@@ -1,5 +1,5 @@
-import 'package:Flutter_CleanArchitechture/app/domain/auth/repository/auth_repository.dart';
-import 'package:Flutter_CleanArchitechture/app/domain/auth/usecase/sign_out/sign_out_usecase.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/repository/auth_repository.dart';
+import 'package:flutter_clean_architechture/app/domain/auth/usecase/sign_out/sign_out_usecase.dart';
 
 class SignOutUsecaseImpl implements SignOutUsecase {
   final AuthRepository _authRepository;
