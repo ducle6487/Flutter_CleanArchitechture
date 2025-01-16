@@ -1,0 +1,9 @@
+apply plugin: 'com.google.gms.google-services'
+
+def googleServicesJsonFile = file(getGoogleServicesFilePath())
+if (googleServicesJsonFile.exists()) {
+    println "Applying Google services file: ${googleServicesJsonFile}"
+    googleServices { jsonFile = googleServicesJsonFile }
+} else {
+    throw new FileNotFoundException("google-services.json not found at path: ${googleServicesJsonFile}")
+}

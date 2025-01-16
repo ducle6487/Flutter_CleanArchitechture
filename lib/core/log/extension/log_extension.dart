@@ -1,0 +1,84 @@
+import 'dart:developer' as developer;
+import 'package:Flutter_CleanArchitechture/config/app_strings.dart';
+import 'package:flutter/foundation.dart';
+import 'package:Flutter_CleanArchitechture/core/error/model/client_failure.dart';
+import 'package:Flutter_CleanArchitechture/core/error/model/failure.dart';
+import 'package:Flutter_CleanArchitechture/core/error/model/server_failure.dart';
+
+extension LogExtension on StackTrace {
+  /// Logs a success message.
+  void printSuccessMessage({required String message}) {
+    if (!kDebugMode) {
+      return;
+    }
+
+    final StackTrace currentStackTrace = this;
+
+    final classAndMethodName = _findClassNameAndMethodNameFromStackTrace(
+        currentStackTrace: currentStackTrace);
+
+    String successMessage = AppStrings.emptyText.text;
+    successMessage += '\n[ClassName]: ${classAndMethodName.$1}';
+    successMessage += '\n[MethodName]: ${classAndMethodName.$2}';
+    successMessage += '\n[DateTime]: ${DateTime.now()}';
+    successMessage += '\n[Message]: $message';
+
+    developer.log(successMessage, name: 'SUCCESS', time: DateTime.now());
+  }
+
+  /// Logs an error message.
+  void printErrorMessage({required Failure failure}) {
+    if (!kDebugMode) {
+      return;
+    }
+
+    final StackTrace currentStackTrace = this;
+
+    final classAndMethodName = _findClassNameAndMethodNameFromStackTrace(
+        currentStackTrace: currentStackTrace);
+
+    String errorMessage = AppStrings.emptyText.text;
+    errorMessage += '\n[ClassName]: ${classAndMethodName.$1}';
+    errorMessage += '\n[MethodName]: ${classAndMethodName.$2}';
+    errorMessage += '\n[DateTime]: ${DateTime.now()}';
+
+    if (failure is ServerFailure) {
+      errorMessage +=
+          '\n[StatusCode]: ${failure.statusCode ?? AppStrings.emptyText}';
+      errorMessage += '\n[ServerExceptionType]: ${failure.serverExceptionType}';
+      errorMessage += '\n[ServerProblemType]: ${failure.serverProblemType}';
+      if (failure.failureData != null) {
+        errorMessage += '\n[Failure Message]: ${failure.failureData?.message}';
+      }
+    } else if (failure is ClientFailure) {
+      errorMessage += '\n[ClientExceptionType]: ${failure.clientExceptionType}';
+    }
+    errorMessage +=
+        '\n[ErrorMessage]: ${failure.thrownErrorOrException?.toString() ?? AppStrings.emptyText}';
+    developer.log(errorMessage, name: 'FAILURE', time: DateTime.now());
+  }
+
+  /// Finds the class name and method name from the stack trace.
+  (String, String) _findClassNameAndMethodNameFromStackTrace(
+      {required StackTrace currentStackTrace}) {
+    final RegExp regex = RegExp(r'#\d+\s+(.*?)\s+\(');
+    final Match? match = regex.firstMatch(currentStackTrace.toString());
+
+    String className = AppStrings.emptyText.text;
+    String methodName = AppStrings.emptyText.text;
+
+    if (match != null && match.groupCount >= 1) {
+      final String? classAndMethodName = match.group(1);
+
+      if (classAndMethodName != null) {
+        final List<String> parts = classAndMethodName.split('.');
+        if (parts.length >= 2) {
+          className = parts[0];
+          methodName = parts[1];
+        }
+      }
+    }
+
+    return (className, methodName);
+  }
+}

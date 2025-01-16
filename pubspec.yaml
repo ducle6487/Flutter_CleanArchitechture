@@ -1,0 +1,133 @@
+name: Flutter CleanArchitechture
+description: "A Flutter Architechture Project"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+0
+
+environment:
+  sdk: "3.5.0"
+
+dependencies:
+  intl:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Localization
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6 # Application Icons
+  flutter_riverpod: ^2.5.1 # State Management
+  dio: ^5.4.2 # Http Client
+  shared_preferences: ^2.2.2 # Persisten Data Storage
+  sqflite: ^2.3.2 # Local Data Storage
+  equatable: ^2.0.5 # Object Comparison
+  go_router: ^13.2.1 # Routing
+  lottie: ^3.1.0 # Lottie Animations
+  flutter_dotenv: ^5.1.0
+  flutter_dialogs: ^3.0.0
+  shimmer: ^3.0.0
+  firebase_core: ^3.1.0
+  flutter_local_notifications: ^17.1.2
+  device_info_plus: ^10.1.0
+  firebase_analytics: ^11.3.5
+  image_picker: ^1.1.2
+  get: ^4.6.6
+  geolocator: ^12.0.0
+  permission_handler: ^11.3.1
+  flutter_svg: ^2.0.10+1
+  geocoding: ^3.0.0
+  connectivity_plus: ^6.0.5
+  url_launcher: ^6.3.0
+  firebase_crashlytics: ^4.1.5
+  firebase_messaging: ^15.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Yesteryear
+      fonts:
+        - asset: assets/fonts/Yesteryear-Regular.ttf
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
+    - family: BigShouldersDisplay
+      fonts:
+        - asset: assets/fonts/BigShouldersDisplay-Black.ttf
+          weight: 900
+        - asset: assets/fonts/BigShouldersDisplay-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/BigShouldersDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/BigShouldersDisplay-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/BigShouldersDisplay-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/BigShouldersDisplay-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/BigShouldersDisplay-Light.ttf
+          weight: 300
+        - asset: assets/fonts/BigShouldersDisplay-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/BigShouldersDisplay-Thin.ttf
+          weight: 100
+    - family: Helveticaneue
+      fonts:
+        - asset: assets/fonts/HelveticaNeueBlack.otf
+          weight: 900
+        - asset: assets/fonts/HelveticaNeueBlackItalic.otf
+          style: italic
+          weight: 900
+        - asset: assets/fonts/HelveticaNeueBold.otf
+          weight: 700
+        - asset: assets/fonts/HelveticaNeueBoldItalic.otf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/HelveticaNeueHeavy.otf
+          weight: 800
+        - asset: assets/fonts/HelveticaNeueHeavyItalic.otf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/HelveticaNeueItalic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/HelveticaNeueRoman.otf
+          weight: 400
+        - asset: assets/fonts/HelveticaNeueLight.otf
+          weight: 300
+        - asset: assets/fonts/HelveticaNeueLightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/HelveticaNeueMedium.otf
+          weight: 500
+        - asset: assets/fonts/HelveticaNeueMediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/HelveticaNeueThin.otf
+          weight: 100
+        - asset: assets/fonts/HelveticaNeueThinItalic.otf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/HelveticaNeueUltraLight.otf
+          weight: 200
+        - asset: assets/fonts/HelveticaNeueUltraLightItalic.otf
+          weight: 200
+          style: italic
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/
+    - assets/svg_icons/
+    - assets/lottie/
+    - assets/translations/
+    - assets/certs/
+    - assets/env/

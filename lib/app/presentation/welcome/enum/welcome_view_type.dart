@@ -1,0 +1,1 @@
+enum WelcomeViewType { startType, continueType }

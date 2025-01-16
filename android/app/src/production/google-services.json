@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "410743193107",
+    "project_id": "ducle-base-5c78c",
+    "storage_bucket": "ducle-base-5c78c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410743193107:android:4b43d255f8592abeeac9e6",
+        "android_client_info": {
+          "package_name": "com.ducle.base"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8tRV0RLQfo6gVIinE2rylUx5qkwZxe8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410743193107:android:ed1727121e745486eac9e6",
+        "android_client_info": {
+          "package_name": "com.ducle.base.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8tRV0RLQfo6gVIinE2rylUx5qkwZxe8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410743193107:android:da8f0dd57aa69388eac9e6",
+        "android_client_info": {
+          "package_name": "com.ducle.base.stag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8tRV0RLQfo6gVIinE2rylUx5qkwZxe8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
